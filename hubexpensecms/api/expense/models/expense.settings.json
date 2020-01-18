@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "expenses",
+  "info": {
+    "name": "Expense"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "type": "email",
+      "required": true
+    },
+    "value": {
+      "unique": false,
+      "required": true,
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "categoryId": {
+      "type": "string",
+      "required": true
+    },
+    "imagepath": {
+      "type": "string",
+      "required": true
+    },
+    "categoryName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
