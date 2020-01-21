@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "strapi",
       cwd:
-        "/Users/jcmss111/Desktop/Mestrado/1semestre/PW/Projecto Final/projecto_cms/hubexpensecms/hubexpensecms",
+        "/home/ubuntu/hubexpensecms/hubexpensecms",
       script: "server.js",
       env: {
         NODE_ENV: "production",
